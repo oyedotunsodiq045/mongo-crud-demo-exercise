@@ -20,7 +20,7 @@ const Course = mongoose.model('Course', CourseSchema);
 
 async function getCourses() {
   const courses = await Course
-    // Get all the published backend courses,
+    // Get all the published frontend and backend courses,
     // .find({ isPublished: true, tags: { $in: ['frontend', 'backend'] } })
     .find({ isPublished: true })
     .or([{ tags: 'frontend' }, { tags: 'backend' }])
