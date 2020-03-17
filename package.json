@@ -1,8 +1,8 @@
 {
   "name": "mongo-crud-demo-exercise",
   "version": "1.0.0",
-  "description": "Get all the published backend courses,\r sort them by their name,\r pick only their name and author,\r and display them",
-  "main": "index.js",
+  "description": "Mongo Crud Demo Exercise",
+  "main": "solution1.js",
   "dependencies": {
     "bcrypt": "^4.0.1",
     "config": "^1.29.4",
