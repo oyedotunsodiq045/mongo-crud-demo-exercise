@@ -21,7 +21,6 @@ const Course = mongoose.model('Course', CourseSchema);
 async function getCourses() {
   const courses = await Course
     // Get all the published backend courses,
-    // .find({ isPublished: true, name: [/.*node.*/i, /.*express.*/i] })
     .find({ isPublished: true, tags: 'backend' })
     // sort them by their name,
     .sort({ name: 1 })
