@@ -13,5 +13,5 @@ pick only their name and author,
 and display them
 
 Exercise 3
-Get all the published courses that are $15 or more,
+Get all the published courses that are \$15 or more,
 or have the word 'by' in their title
