@@ -21,8 +21,8 @@ const Course = mongoose.model('Course', CourseSchema);
 async function getCourses() {
   const courses = await Course
     // Get all the published courses that are $15 or more,
-    // or have the word 'by' in their title
     .find({ isPublished: true })
+    // or have the word 'by' in their title
     .or([{ price: { $gte: 15 } }, { name: /.*by.*/i }]);
 
   // and display them
