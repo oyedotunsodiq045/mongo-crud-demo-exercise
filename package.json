@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/oyedotunsodiq045/mongo-crud-demo-exercise#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongoose": "^5.9.5"
   },
   "devDependencies": {
